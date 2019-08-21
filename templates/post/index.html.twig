@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Les articles
+{% endblock %}
+
+{% block body %}
+    <h1>Nos articles</h1>
+
+    {% for post in posts %}
+        <h2>{{post.title}}</h2>
+        <p>{{post.content}}</p>
+    {% else %}
+        <h2>Aucun article pour l'instant</h2>
+    {% endfor %}
+{% endblock %}

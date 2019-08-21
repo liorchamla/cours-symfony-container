@@ -28,6 +28,9 @@
         "symfony/yaml": "4.3.*"
     },
     "require-dev": {
+        "davidbadura/faker-markdown-generator": "^1.0",
+        "doctrine/doctrine-fixtures-bundle": "^3.2",
+        "fzaninotto/faker": "^1.8",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
